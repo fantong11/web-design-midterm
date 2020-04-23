@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     width: 1280px;
     margin: 0;
@@ -8,7 +12,7 @@ body {
 
 header {
     width: 1280px;
-    background: #bb5d00;
+    background: #e7ab06;
     position: fixed;
 }
 
@@ -53,10 +57,6 @@ header {
 
 .logo-icon {
     width: 66px;
-}
-
-.logo-icon {
-    width: 66px;
     display: flex;
     justify-content: space-between;
 }
@@ -81,3 +81,19 @@ article {
 .sandwich-cake {
     width: 1056px;
 }
+
+.scrolling{
+    margin-top: 1000px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
