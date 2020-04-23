@@ -1,42 +1,83 @@
 body {
+    width: 1280px;
     margin: 0;
-    background: orange;
+    background: #ffe4ca;
     font-weight: 300;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
+    font-family: 'Roboto:ital@1', sans-serif;
 }
 
 header {
-    background: brown;
+    width: 1280px;
+    background: #bb5d00;
+    position: fixed;
 }
 
-header::after {
-    content: "";
-    display: table;
-    clear: both;
+.head-title {
+    margin: 0;
+    margin-left: 112px;
+    margin-right: 122px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .logo-dessert {
+    width: 240px;
     margin: 0;
     float: left;
     padding: 10px 0;
 }
 
+
 .nav-box {
-    float: right;
+    margin-left: 336px;
 }
 
 .nav-box-list {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .nav-box-list li {
-    display: inline-block;
-    margin-left: 100px;
+    width: 66px;
+    margin-right: 46px;
     padding-top: 25px;
+}
+
+.nav-box-list li a {
+    text-decoration: none;
+}
+
+.logo-icon {
+    width: 66px;
+}
+
+.logo-icon {
+    width: 66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-icon img{
+    width: 25px;
+    height: 25px;
+}
+
+.btn-fb {
+    padding-top: 25px;
+}
+
+.btn-ig {
+    padding-top: 25px;
+}
+
+article {
+    margin: 0 112px;
+}
+
+.sandwich-cake {
+    width: 1056px;
 }
