@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background: orange;
+    font-weight: 300;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: brown;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo-dessert {
+    margin: 0;
+    float: left;
+    padding: 10px 0;
+}
+
+.nav-box {
+    float: right;
+}
+
+.nav-box-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-box-list li {
+    display: inline-block;
+    margin-left: 100px;
+    padding-top: 25px;
+}
