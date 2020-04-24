@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -11,6 +11,7 @@ body {
 }
 
 /*------------------------header---------------------------*/
+
 header {
     width: 100%;
     background: #e7ab06;
@@ -38,6 +39,7 @@ header {
 }
 
 /*------------------------nav---------------------------*/
+
 .nav-list {
     width: 408px;
     margin: 0;
@@ -61,12 +63,13 @@ header {
     align-items: center;
 }
 
-.logo-icon img{
+.logo-icon img {
     width: 25px;
     height: 25px;
 }
 
 /*------------------------article---------------------------*/
+
 .article-container {
     width: 1056px;
     margin-top: 20px;
@@ -87,8 +90,7 @@ header {
 }
 
 .dessert-content {
-    height: 630px;
-    background: red;
+    height: 775px;
     display: flex;
     justify-content: space-between;
     align-content: space-between;
@@ -96,68 +98,78 @@ header {
     margin-top: 35px;
 }
 
-.dessert-content div {
-    height: 300px;
+img {
+    border-radius: 8px;
 }
 
-.dessert-one {
-    background: blue;
+.brulee-img {
     width: 510px;
 }
 
 .dessert-one-info {
-    background: green;
+    background: #ff8000;
     width: 510px;
-    /* padding-left: 15px;
-    padding-right: 15px; */
+    border-radius: 8px;
 }
 
-.dessert-one-info-title {
+.dessert-title {
     margin: 0;
-
+    padding-left: 15px;
+    padding-top: 20px;
 }
 
-.dessert-two {
-    background: yellow;
+.dessert-info-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 2;
+}
+
+.souffle-img {
     width: 240px;
 }
 
 .dessert-two-info {
-    background: yellow;
+    background: #ff8000;
     width: 240px;
+    border-radius: 8px;
 }
 
-.dessert-three {
-    background: yellow;
+.melaleuca-img {
     width: 240px;
+    height: 315px;
 }
 
 .dessert-three-info {
-    background: yellow;
+    background: #ff8000;
     width: 240px;
+    border-radius: 8px;
 }
 
 .footer {
     width: 100%;
-    background: yellowgreen;
+    background: #ffa042;
     padding-top: 24px;
     padding-bottom: 25px;
     margin-top: 35px;
     text-align: center;
 }
+
 /* .scrolling{
     margin-top: 1000px;
 } */
 
 /* 蔡仲文 保留 */
+
 /* The sticky class is added to the header with JS when it reaches its scroll position */
+
 /* .sticky {
     position: fixed;
     top: 0;
     width: 100%
 } */
-  
+
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+
 /* .sticky + .content {
     padding-top: 102px;
 } */
