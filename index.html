@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"href="https://fonts.google.com/specimen/Roboto?category=Sans+Serif&sort=popularity&selection.family=Roboto:ital@1">
   <link rel="stylesheet" href="CSS/style.css">
   <script type="text/javascript", src="js/jquery-3.5.0.js"></script>
   <title>Dessert</title>
 </head>
 <body>
 <header>
-  <div class="container">
+  <div class="head-title">
     <h1 class="logo-dessert">Dessert</h1>
     <nav class="nav-box">
       <ul class="nav-box-list">
@@ -19,14 +21,24 @@
         <li class="nav-box-list-help"><a href="#">Help</a></li>
       </ul> <!-- nav-box-list -->
     </nav> <!-- nav-box -->
+    <div class="logo-icon">
+      <img class="btn-fb" src="images/fb_logo.png" alt="FB Lost">
+      <img class="btn-ig" src="images/ig_logo.png" alt="IG Lost">
+    </div> <!-- logo-icon -->
   </div>
 </header>
-
 <article>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus porro animi sequi aliquid. Iure ab reprehenderit recusandae, nihil a laborum sit, at voluptatibus praesentium quam soluta rerum veniam inventore consectetur!</p>
+  <img class="sandwich-cake" src="images/sandwich_cake.jpg" alt="Cake Lost">
+  <div id="test1">
+    <h2>Test1</h2>
+    <a href="#test2">Click Me to Smooth Scroll to Test2 Below</a>
+  </div>
+  <div class="scrolling" id="test2">
+    <h2>Test2</h2>
+    <a href="#test1">Click Me to Smooth Scroll to Test1 Below</a>
+  </div>
 </article>
-<footer>
-  <p>footer</p>
-</footer>
 </body>
+<script type="text/javascript" , src="js/script.js"></script>
+
 </html>
