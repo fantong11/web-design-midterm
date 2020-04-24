@@ -3,7 +3,7 @@ html{
 }
 
 body {
-    width: 1280px;
+    width: 100%;
     margin: 0;
     background: #ffe4ca;
     font-weight: 300;
@@ -11,54 +11,52 @@ body {
 }
 
 header {
-    width: 1280px;
+    width: 100%;
     background: #e7ab06;
-    position: fixed;
+    /* position: fixed; */
 }
 
-.head-title {
-    margin: 0;
-    margin-left: 112px;
-    margin-right: 122px;
+.head-container {
+    width: 1056px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 10px; */
 }
 
 .logo-dessert {
-    width: 240px;
     margin: 0;
     float: left;
-    padding: 10px 0;
 }
 
-
-.nav-box {
-    margin-left: 336px;
+.head-menu {
+    display: flex;
+    justify-content: space-between;
 }
 
-.nav-box-list {
+.nav-list {
+    width: 408px;
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 }
 
-.nav-box-list li {
-    width: 66px;
-    margin-right: 46px;
-    padding-top: 25px;
-}
-
-.nav-box-list li a {
+.nav-list-item-link {
+    display: block;
     text-decoration: none;
+    padding: 16px 30px;
+    cursor: pointer;
 }
 
 .logo-icon {
     width: 66px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo-icon img{
@@ -66,16 +64,11 @@ header {
     height: 25px;
 }
 
-.btn-fb {
-    padding-top: 25px;
-}
-
-.btn-ig {
-    padding-top: 25px;
-}
-
-article {
-    margin: 0 112px;
+.article-container {
+    width: 1056px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sandwich-cake {
@@ -86,6 +79,7 @@ article {
     margin-top: 1000px;
 }
 
+/* 蔡仲文 保留 */
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
