@@ -80,6 +80,11 @@ header {
 .sandwich-cake {
     width: 1056px;
 }
+.pro-box{
+    background: white; 
+    width: 50px;
+
+}
 
 .step-text {
     text-align: center;
