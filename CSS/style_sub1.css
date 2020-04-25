@@ -1,0 +1,110 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background: #ffe4ca;
+    font-weight: 300;
+    font-family: 'Roboto:ital@1', sans-serif;
+}
+/*------------------------header---------------------------*/
+header {
+    width: 100%;
+    background: #e7ab06;
+    /* position: fixed; */
+}
+
+.head-container {
+    width: 1056px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 10px; */
+}
+
+.logo-dessert {
+    margin: 0;
+    float: left;
+}
+
+.head-menu {
+    display: flex;
+    justify-content: space-between;
+}
+/*------------------------nav---------------------------*/
+.nav-list {
+    width: 408px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-list-item-link {
+    display: block;
+    text-decoration: none;
+    padding: 16px 30px;
+    cursor: pointer;
+}
+
+.logo-icon {
+    width: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon img{
+    width: 25px;
+    height: 25px;
+}
+/*------------------------article---------------------------*/
+.article-container {
+    width: 1056px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.big_img {
+    width: 100%;
+    height: 546px;
+    background-color: chocolate;
+}
+.step_box{
+    width: 100%;
+    height: 136px;
+    background-color: crimson;
+}
+.step{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.img_box_place{
+    margin-top: 10px;
+    width: 43%;
+    height: 327px;
+    background-color: aqua;
+    font-size: 60px;
+}
+.text_box_place{
+    margin-top: 20px;
+    width: 53%;
+    height: 327px;
+    background-color: cadetblue;
+    font-size: 60px;
+}
+/*------------------------body---------------------------*/
+.footer {
+    width: 100%;
+    background: yellowgreen;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-top: 35px;
+    text-align: center;
+}
