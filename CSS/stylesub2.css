@@ -81,68 +81,49 @@ header {
     width: 1056px;
 }
 
-.mid-word-box {
-    background: white;   
-    padding-bottom: 35px;
-    margin-top: 35px;
-    text-align: center;
-}
-.mid-word-box2 {
-    background: white;   
-    padding-bottom: 35px;
-    margin-top: 15px;
+.step-text {
     text-align: center;
 }
 
-.process-content {
-    
-    display: flex;
-  
-    align-content: space-between;
-    flex-wrap: wrap;
+.step-box {
+    background: white;   
     margin-top: 35px;
-    margin-left: 15px;
 }
-.process-content2 {
-    
+
+.step-content {
     display: flex;
-  
-    align-content: space-between;
-    flex-wrap: wrap;
-     
-    margin-left: 15px;
+    justify-content: space-between;
+    margin-top: 35px;
 }
 
 img {
     border-radius: 8px;
-        
-    
 }
 
 .brulee-img {
     width: 444px;
 }
 
-.process-one-info {
+.step-info {
     background: #ff8000;
     width: 510px;
     border-radius: 8px;
     margin-left: 66px;
     
-    
 }
 
-.process-title {
+.step-title {
     margin: 0;
     padding-left: 15px;
     padding-top: 20px;
 }
 
-.process-info-content {
+.step-info-content {
     padding-left: 15px;
     padding-right: 15px;
     line-height: 2;
 }
+
 .footer {
     width: 100%;
     background: #ffa042;
@@ -151,23 +132,3 @@ img {
     margin-top: 35px;
     text-align: center;
 }
-
-/* .scrolling{
-    margin-top: 1000px;
-} */
-
-/* 蔡仲文 保留 */
-
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-
-/* .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-} */
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-
-/* .sticky + .content {
-    padding-top: 102px;
-} */
