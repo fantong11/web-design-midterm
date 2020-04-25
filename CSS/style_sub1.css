@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -9,7 +9,9 @@ body {
     font-weight: 300;
     font-family: 'Roboto:ital@1', sans-serif;
 }
+
 /*------------------------header---------------------------*/
+
 header {
     width: 100%;
     background: #e7ab06;
@@ -35,7 +37,9 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
 /*------------------------nav---------------------------*/
+
 .nav-list {
     width: 408px;
     margin: 0;
@@ -59,50 +63,67 @@ header {
     align-items: center;
 }
 
-.logo-icon img{
+.logo-icon img {
     width: 25px;
     height: 25px;
 }
+
 /*------------------------article---------------------------*/
+
 .article-container {
     width: 1056px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
-.big_img {
+
+.big-img {
     width: 100%;
     height: 546px;
     background-color: chocolate;
 }
-.step_box{
-    width: 100%;
+
+.step-box {
     height: 136px;
     background-color: crimson;
+    margin-top: 50px;
 }
-.step{
+
+.producing-process {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.step-div {
+    width: 1056px;
     display: flex;
     justify-content: space-between;
-    align-content: flex-start;
+    margin-top: 50px;
 }
-.img_box_place{
-    margin-top: 10px;
-    width: 43%;
+
+.step-img {
+    width: 444px;
     height: 327px;
     background-color: aqua;
     font-size: 60px;
 }
-.text_box_place{
-    margin-top: 20px;
-    width: 53%;
+
+.step-text {
+    width: 546px;
     height: 327px;
     background-color: cadetblue;
-    font-size: 60px;
+    font-size: 24px;
+    text-align: center;
 }
+
+
+
 /*------------------------body---------------------------*/
+
 .footer {
     width: 100%;
-    background: yellowgreen;
+    background: #ffa042;
     padding-top: 24px;
     padding-bottom: 25px;
     margin-top: 35px;

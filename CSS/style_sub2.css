@@ -80,10 +80,10 @@ header {
 .sandwich-cake {
     width: 1056px;
 }
-.pro-box{
-    background: white; 
-    width: 50px;
 
+.pro-box {
+    background: white;
+    width: 50px;
 }
 
 .step-text {
@@ -91,7 +91,7 @@ header {
 }
 
 .step-box {
-    background: white;   
+    background: white;
     margin-top: 35px;
 }
 
@@ -114,7 +114,6 @@ img {
     width: 510px;
     border-radius: 8px;
     margin-left: 66px;
-    
 }
 
 .step-title {
