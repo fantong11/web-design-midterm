@@ -82,69 +82,67 @@ header {
 }
 
 .mid-word-box {
-    background: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    background: white;   
+    padding-bottom: 35px;
     margin-top: 35px;
     text-align: center;
 }
+.mid-word-box2 {
+    background: white;   
+    padding-bottom: 35px;
+    margin-top: 15px;
+    text-align: center;
+}
 
-.dessert-content {
-    height: 775px;
+.process-content {
+    
     display: flex;
-    justify-content: space-between;
+  
     align-content: space-between;
     flex-wrap: wrap;
     margin-top: 35px;
+    margin-left: 15px;
+}
+.process-content2 {
+    
+    display: flex;
+  
+    align-content: space-between;
+    flex-wrap: wrap;
+     
+    margin-left: 15px;
 }
 
 img {
     border-radius: 8px;
+        
+    
 }
 
 .brulee-img {
-    width: 510px;
+    width: 444px;
 }
 
-.dessert-one-info {
+.process-one-info {
     background: #ff8000;
     width: 510px;
     border-radius: 8px;
+    margin-left: 66px;
+    
+    
 }
 
-.dessert-title {
+.process-title {
     margin: 0;
     padding-left: 15px;
     padding-top: 20px;
 }
 
-.dessert-info-content {
+.process-info-content {
     padding-left: 15px;
     padding-right: 15px;
     line-height: 2;
 }
-
-.souffle-img {
-    width: 240px;
-}
-
-.dessert-two-info {
-    background: #ff8000;
-    width: 240px;
-    border-radius: 8px;
-}
-
-.melaleuca-img {
-    width: 240px;
-    height: 315px;
-}
-
-.dessert-three-info {
-    background: #ff8000;
-    width: 240px;
-    border-radius: 8px;
-}
-
 .footer {
     width: 100%;
     background: #ffa042;
