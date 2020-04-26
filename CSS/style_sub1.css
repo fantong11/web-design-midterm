@@ -87,7 +87,12 @@ header {
     height: 136px;
     background-color: crimson;
     margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+    color: aliceblue;
+
 }
+
 
 .producing-process {
     display: flex;
