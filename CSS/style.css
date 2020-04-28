@@ -5,7 +5,7 @@ html {
 body {
     width: 100%;
     margin: 0;
-    background: #ffe4ca;
+    background: rgb(255, 255, 255);
     font-weight: 300;
     font-family: 'Roboto:ital@1', sans-serif;
 }
@@ -14,12 +14,14 @@ body {
 
 header {
     width: 100%;
-    background: #e7ab06;
-    /* position: fixed; */
+    background: rgba(244, 165, 96, 0);
+    position: fixed;
 }
 
 .head-container {
     width: 1056px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +43,7 @@ header {
 /*------------------------nav---------------------------*/
 
 .nav-list {
-    width: 408px;
+    width: auto;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -50,10 +52,13 @@ header {
 }
 
 .nav-list-item-link {
+    color: #FDF0D5;
+    font-weight: bold;
     display: block;
     text-decoration: none;
     padding: 16px 30px;
     cursor: pointer;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 2px 2px 2px black;
 }
 
 .logo-icon {
@@ -69,24 +74,31 @@ header {
 }
 
 /*------------------------article---------------------------*/
+.top-article {
+    margin: 0;
+}
+
+
+.berry-cake {
+    width: 100%;
+}
 
 .article-container {
     width: 1056px;
-    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.sandwich-cake {
-    width: 1056px;
-}
-
-.mid-word-box {
-    background: white;
-    padding-top: 15px;
+.about-us {
+    
+    background: #F4A460;
+    height: 450px;
+    /* padding-top: 17px; */
     padding-bottom: 15px;
-    margin-top: 35px;
     text-align: center;
+}
+.mid-word {
+    margin: 0;
 }
 
 .dessert-content {
