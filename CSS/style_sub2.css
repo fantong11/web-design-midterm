@@ -21,8 +21,6 @@ header {
 
 .head-container {
     width: 1056px;
-    padding-top: 16px;
-    padding-bottom: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -150,14 +148,16 @@ header {
     margin-top: 35px;
 }
 
-.step-box,.text-bottom-line {
+.step-box, .text-bottom-line {
     height: 136px;
     background: linear-gradient(to top left, #ff8000 0%, #ff99cc 100%);
     margin-top: 50px;
     font-size: 24px;
     display: flex;
-    text-align: center;/*垂直置中(配合display:flex)*/
-    justify-content:center;/*水平置中(配合display:flex)*/
+    text-align: center;
+    /*垂直置中(配合display:flex)*/
+    justify-content: center;
+    /*水平置中(配合display:flex)*/
     align-items: center;
     color: aliceblue;
 }
@@ -178,7 +178,7 @@ img {
 }
 
 .step-info {
-    background:linear-gradient(to top left, #ff9966 0%, #ff99cc 100%);
+    background: linear-gradient(to top left, #ff9966 0%, #ff99cc 100%);
     width: 510px;
     border-radius: 8px;
     margin-left: 66px;
