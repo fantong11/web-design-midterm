@@ -44,6 +44,10 @@ header {
     width: 15%;
 }
 
+.logo-dessert h1 {
+    font-family: "Pacifico";
+    font-style: normal;
+}
 .head-menu {
     display: flex;
     justify-content: space-between;
