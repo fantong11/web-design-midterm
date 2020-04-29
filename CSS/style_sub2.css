@@ -21,14 +21,11 @@ header {
 
 .head-container {
     width: 1056px;
-    padding-top: 16px;
-    padding-bottom: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    /* padding-top: 10px; */
 }
 
 .logo-dessert {
@@ -150,7 +147,7 @@ header {
     margin-top: 35px;
 }
 
-.step-box,.text-bottom-line {
+.step-box {
     height: 136px;
     background: linear-gradient(to top left, #ff8000 0%, #ff99cc 100%);
     margin-top: 50px;
@@ -182,6 +179,12 @@ img {
     width: 510px;
     border-radius: 8px;
     margin-left: 66px;
+}
+
+.text-bottom-line{
+    height: 2px;
+    width: 100%;
+    background-color: #FFFFFF;
 }
 
 .step-title {

@@ -159,7 +159,7 @@ header {
     height: 546px;
     background-color: rgb(233, 117, 8);
 }
-.step-box,.text-bottom-line {
+.step-box {
     height: 136px;
     background: linear-gradient(to top left, #ff8000 0%, #ff99cc 100%);
     margin-top: 50px;
@@ -170,13 +170,6 @@ header {
     align-items: center;
     color: aliceblue;
 }
-.text-bottom-line{
-    height: 2px;
-    width: 80%;
-    margin: 0 10%;
-    background-color: #000000;
-}
-
 
 .producing-process {
     display: flex;
@@ -203,7 +196,11 @@ header {
     font-size: 24px;
     text-align: center;
 }
-
+.text-bottom-line{
+    height: 2px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
 
 
 /*------------------------body---------------------------*/
