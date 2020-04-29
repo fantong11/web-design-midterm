@@ -1,41 +1,26 @@
-// window.onscroll = function() {myFunction()};
 
-// // Get the header
-// var header = document.getElementById("head-title");
+/* navigation bar animation*/
+$(document).ready(function(){       
+    var scroll_start = 0;
+    var startchange = $('header');
+    var Heightofit = startchange.outerHeight();
+    $(window).scroll(function() { 
+       scroll_start = $(this).scrollTop();
+       if(scroll_start > Heightofit) {
+            $('header').css('background-color','#ffffff');
+            $('header').css('-webkit-box-shadow', '0 8px 6px -6px #999');
+            $('header').css('-moz-box-shadow', '0 8px 6px -6px #999');
+            $('header').css('box-shadow', '0 8px 6px -6px #999');
 
-// // Get the offset position of the navbar
-// var sticky = header.offsetTop;
+        } else {
+             $('header').css('background-color','transparent');
+             $('header').css('-webkit-box-shadow', '');
+             $('header').css('-moz-box-shadow', '');
+             $('header').css('box-shadow', '');
 
-// // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-// function myFunction() {
-//   if (window.pageYOffset > sticky) {
-//     header.classList.add("sticky");
-//   } else {
-//     header.classList.remove("sticky");
-//   }
-// }
-
-//-------------------------------------------------------------------------------------------------------//
-
-function animate_bg(ele, from, to) {
-    ele.css("background-color", "rgba(187, 93, 0, " + (from += from > to ? -1 : 1) / 10 + ")");
-    if (from != to)
-        setTimeout(function () { animate_bg(ele, from, to) }, 20);
-}
-
-// $("header").hover(
-//     function() {return animate_bg($(header), 0, 10)},
-//     function() {return animate_bg($(header), 10, 0)}
-// );
-// $(document).scroll(function () {
-//     if ($(window).scrollTop() != 0) {
-//         animate_bg($('header'), 0, 10)
-//         animate_bg($('header'), 10, 0)
-//     }
-//     else {
-//         animate_bg($('header'), 10, 0)
-//     }
-// });
+        }
+    });
+ });
 
 // /*當滑鼠放上選單時會變顏色*/
 // $(".nav-list-item-link").hover(function () {
