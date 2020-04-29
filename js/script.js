@@ -1,26 +1,26 @@
 
 /* navigation bar animation*/
-$(document).ready(function(){       
+$(document).ready(function () {
     var scroll_start = 0;
     var startchange = $('header');
     var Heightofit = startchange.outerHeight();
-    $(window).scroll(function() { 
-       scroll_start = $(this).scrollTop();
-       if(scroll_start > Heightofit) {
-            $('header').css('background-color','#ffffff');
+    $(window).scroll(function () {
+        scroll_start = $(this).scrollTop();
+        if (scroll_start > Heightofit) {
+            $('header').css('background-color', '#ffffff');
             $('header').css('-webkit-box-shadow', '0 8px 6px -6px #999');
             $('header').css('-moz-box-shadow', '0 8px 6px -6px #999');
             $('header').css('box-shadow', '0 8px 6px -6px #999');
 
         } else {
-             $('header').css('background-color','transparent');
-             $('header').css('-webkit-box-shadow', '');
-             $('header').css('-moz-box-shadow', '');
-             $('header').css('box-shadow', '');
+            $('header').css('background-color', 'transparent');
+            $('header').css('-webkit-box-shadow', '');
+            $('header').css('-moz-box-shadow', '');
+            $('header').css('box-shadow', '');
 
         }
     });
- });
+});
 
 // /*當滑鼠放上選單時會變顏色*/
 // $(".nav-list-item-link").hover(function () {
