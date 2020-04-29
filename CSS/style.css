@@ -16,6 +16,7 @@ header {
     width: 100%;
     background: rgba(244, 165, 96, 0);
     position: fixed;
+    transition-duration: 1s;
 }
 
 .head-container {
@@ -78,7 +79,6 @@ header {
     margin: 0;
 }
 
-
 .berry-cake {
     width: 100%;
 }
@@ -108,15 +108,11 @@ header {
     font-size: 40px;
     margin: 0;
 }
-.mid-word{
-
-}
 
 .about-us-content p {
     font-size: 24px;
     line-height: 2;
 }
-
 
 .dessert-content {
     display: flex;
