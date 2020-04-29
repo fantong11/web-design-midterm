@@ -7,7 +7,7 @@ body {
     margin: 0;
     background: #ffe4ca;
     font-weight: 300;
-    font-family: 'Roboto:ital@1', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 /*------------------------header---------------------------*/
@@ -99,6 +99,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 35px;
+    font-size: 24px;
 }
 
 img {
