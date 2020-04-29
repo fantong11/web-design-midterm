@@ -25,7 +25,7 @@ $(".button").hover(function () {
     // 滑鼠在上面的時候
     $(this).css("background", "rgb(243, 107, 72)");
 },
-function() {
-    // 滑鼠不在上面的時候
-    $(this).css("background", "#F4A460");
-});
+    function () {
+        // 滑鼠不在上面的時候
+        $(this).css("background", "#F4A460");
+    });
