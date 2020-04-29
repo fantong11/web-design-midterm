@@ -90,71 +90,64 @@ header {
 }
 
 .about-us {
-    
+    display: flex;
+    justify-content: center;
     background: #F4A460;
     height: 450px;
     /* padding-top: 17px; */
     padding-bottom: 15px;
     text-align: center;
 }
+
+.about-us-content {
+    width: 528px;
+}
+
 .mid-word {
+    font-size: 40px;
     margin: 0;
 }
 
+.about-us-content p {
+    font-size: 24px;
+    line-height: 2;
+}
+
+
 .dessert-content {
-    height: 775px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 35px;
+}
+
+.content {
+    width: 510px;
+    height: 300px;
+    /* background-color: blue; */
+}
+
+.content-title h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+.dessert-img {
     display: flex;
     justify-content: space-between;
     align-content: space-between;
     flex-wrap: wrap;
-    margin-top: 35px;
-}
-
-img {
-    border-radius: 8px;
-}
-
-.brulee-img {
     width: 510px;
 }
 
-.dessert-one-info {
-    background: #ff8000;
-    width: 510px;
+.dessert-img img {
     border-radius: 8px;
-}
-
-.dessert-title {
-    margin: 0;
-    padding-left: 15px;
-    padding-top: 20px;
-}
-
-.dessert-info-content {
-    padding-left: 15px;
-    padding-right: 15px;
-    line-height: 2;
-}
-
-.souffle-img {
-    width: 240px;
-}
-
-.dessert-two-info {
-    background: #ff8000;
-    width: 240px;
-    border-radius: 8px;
-}
-
-.melaleuca-img {
-    width: 240px;
-    height: 315px;
-}
-
-.dessert-three-info {
-    background: #ff8000;
-    width: 240px;
-    border-radius: 8px;
+    width: 237px;
+    height: 134px;
 }
 
 .footer {
