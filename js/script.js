@@ -28,4 +28,5 @@ $(".button").hover(function () {
     function () {
         // 滑鼠不在上面的時候
         $(this).css("background", "#F4A460");
-    });
+    }
+);

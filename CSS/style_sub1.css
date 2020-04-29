@@ -48,6 +48,7 @@ header {
     font-family: "Pacifico";
     font-style: normal;
 }
+
 .head-menu {
     display: flex;
     justify-content: space-between;
