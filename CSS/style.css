@@ -17,12 +17,11 @@ header {
     background: rgba(244, 165, 96, 0);
     position: fixed;
     transition-duration: 0.5s;
+    z-index: 100;
 }
 
 .head-container {
     width: 1056px;
-    padding-top: 16px;
-    padding-bottom: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,8 +128,55 @@ header {
     margin: 0;
 }
 
+.top-img {
+    position: relative;
+}
+
 .berry-cake {
     width: 100%;
+}
+
+.berry-cake-title {
+    width: 320px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    top: 40%; 
+    transform: translate(-50%, -50%);
+}
+
+.berry-cake-title h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 2px 2px 2px black;
+}
+
+.button {
+    /* width: 150px;
+    height: 50px; */
+    display: block;
+    background-color: #F4A460; 
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    z-index: 20;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.486), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button a {
+    color: rgb(124, 85, 7);
+    font-size: 24px;
+    text-decoration: none;
 }
 
 .article-container {
@@ -156,11 +202,13 @@ header {
 }
 
 .mid-word {
+    color: rgb(124, 85, 7);
     font-size: 40px;
     margin: 0;
 }
 
 .about-us-content p {
+    color: rgb(124, 85, 7);
     margin: 0;
     font-size: 24px;
     line-height: 3;
@@ -171,16 +219,15 @@ header {
     justify-content: space-between;
     align-content: space-between;
     flex-wrap: nowrap;
-    /* margin-top: 35px; */
 }
 
 .content {
     width: 510px;
     height: 300px;
-    /* background-color: blue; */
 }
 
 .content-title h1 {
+    color: rgb(124, 85, 7);
     padding: 0;
     margin: 0;
     text-align: center;
@@ -215,26 +262,5 @@ header {
     background: #ffa042;
     padding-top: 24px;
     padding-bottom: 25px;
-    /* margin-top: 35px; */
     text-align: center;
 }
-
-/* .scrolling{
-    margin-top: 1000px;
-} */
-
-/* 蔡仲文 保留 */
-
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-
-/* .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-} */
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-
-/* .sticky + .content {
-    padding-top: 102px;
-} */
