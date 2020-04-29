@@ -5,17 +5,23 @@ html {
 body {
     width: 100%;
     margin: 0;
-    background: #ffe4ca;
+    background: rgba(255, 222, 133, 0.5);
     font-weight: 300;
-    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 /*------------------------header---------------------------*/
 
 header {
     width: 100%;
-    background: #ED474A;
-    /* position: fixed; */
+    background: rgba(244, 165, 96, 0);
+    position: fixed;
+    transition-duration: 0.5s;
+    z-index: 100;
+    background-color: #ffffff;
+    box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
 }
 
 .head-container {
@@ -29,8 +35,13 @@ header {
 }
 
 .logo-dessert {
+    width: auto;
+    display: flex;
     margin: 0;
-    float: left;
+}
+
+.logo-img {
+    width: 15%;
 }
 
 .head-menu {
@@ -41,7 +52,7 @@ header {
 /*------------------------nav---------------------------*/
 
 .nav-list {
-    width: 408px;
+    width: auto;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -49,11 +60,77 @@ header {
     justify-content: space-evenly;
 }
 
+/* ------------- */
+
 .nav-list-item-link {
+    color: #FDF0D5;
+    font-weight: bold;
     display: block;
     text-decoration: none;
     padding: 16px 30px;
     cursor: pointer;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 2px 2px 2px black;
+    /* overflow: hidden; */
+    /* transition: all 0.5s; */
+}
+
+.link-animation {
+    transition: all 0.5s;
+    border: 1px solid rgba(255, 255, 255, 0);
+    position: relative;
+}
+
+.link-animation span {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.link-animation {
+    transition: all 0.5s;
+    border: 1px solid rgba(255, 255, 255, 0);
+    position: relative;
+}
+
+.link-animation span {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.link-animation::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    background-color: rgba(224, 197, 197, 0.3);
+    transition: all 0.4s;
+    transform: scale(0.5, 1);
+}
+
+.link-animation:hover::before {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+/* -------------- */
+.logo-dessert {
+    width: auto;
+    display: flex;
+    margin: 0;
+}
+
+.logo-img {
+    width: 15%;
 }
 
 .logo-icon {
@@ -63,16 +140,24 @@ header {
     align-items: center;
 }
 
+.logo-icon {
+    padding: 16px 30px;
+}
+
 .logo-icon img {
     width: 25px;
     height: 25px;
 }
 
+
 /*------------------------article---------------------------*/
+.empty {
+    padding-top: 90px;
+}
 
 .article-container {
     width: 1056px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -82,23 +167,46 @@ header {
     height: 546px;
     background-color: rgb(233, 117, 8);
 }
+
+.ingredients-box {
+    background-color: rgba(255, 170, 96, 0.8);
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    border: hidden 2px rgba(255, 170, 96);
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(428%, -102%);
+    font-size: 17px;
+}
+
+.ingredients-list {
+    margin-top: 40px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.ingredients-list-item {
+    /* color: #FDF0D5; */
+    color: rgb(31, 29, 25);
+}
+
+.list-title {
+    list-style: none;
+}
+
 .step-box {
     height: 136px;
-    background-color: #ED474A;
-    margin-top: 50px;
+    background: linear-gradient(to bottom, #F4A460 0%, #ffffff 100%);
+    margin-top: -180px;
     font-size: 24px;
     display: flex;
     text-align: center;/*垂直置中(配合display:flex)*/
     justify-content:center;/*水平置中(配合display:flex)*/
-    color: aliceblue;
+    align-items: center;
+    color: rgb(0, 0, 0);
 }
-.text-bottom-line{
-    height: 2px;
-    width: 80%;
-    margin: 0 10%;
-    background-color: #000000;
-}
-
 
 .producing-process {
     display: flex;
@@ -121,18 +229,22 @@ header {
 .step-text {
     width: 546px;
     height: 327px;
-    background-color: #F4A460;
+    background: linear-gradient(to top left, #F4A460 0%, #ffffff 100%);
     font-size: 24px;
     text-align: center;
 }
-
+.text-bottom-line{
+    height: 2px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
 
 
 /*------------------------body---------------------------*/
 
 .footer {
     width: 100%;
-    background: #ED474A;
+    background: #ffa042;
     padding-top: 24px;
     padding-bottom: 25px;
     margin-top: 35px;

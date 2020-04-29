@@ -4,22 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
   <title>Document</title>
   <link href="./CSS/style_sub1.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript" , src="js/jquery-3.5.0.js"></script>
 </head>
 
 <body>
   <header>
     <div class="head-title">
       <div class="head-container">
-        <h1 class="logo-dessert">Dessert</h1>
+        <div class="logo-dessert">
+          <img class="logo-img" src="images/logo.png" alt="Logo Lost">
+          <h1>Dessert</h1>
+        </div>
         <div class="head-menu">
           <nav class="nav">
             <ul class="nav-list">
-              <li class="nav-list-item"><a class="nav-list-item-link" href="#">Home</a></li>
-              <li class="nav-list-item"><a class="nav-list-item-link" href="#">About</a></li>
-              <li class="nav-list-item"><a class="nav-list-item-link" href="#">Contact</a></li>
-              <li class="nav-list-item"><a class="nav-list-item-link" href="#">Help</a></li>
+              <li class="nav-list-item"><a class="nav-list-item-link link-animation" href="index.html">首頁</a></li>
+              <li class="nav-list-item"><a class="nav-list-item-link link-animation" href="#">關於我們</a></li>
+              <li class="nav-list-item"><a class="nav-list-item-link link-animation" href="#">我們的甜點</a></li>
+              <li class="nav-list-item"><a class="nav-list-item-link link-animation" href="#">聯絡我們</a></li>
             </ul> <!-- nav-box-list -->
           </nav> <!-- nav-box -->
           <div class="logo-icon">
@@ -30,14 +35,24 @@
       </div> <!-- head-container -->
     </div> <!-- head-title -->
   </header>
+  <div class="empty"></div>
   <article>
     <div class="article-container">
-      <img class="big-img" src="./images/bula.jpg">
-
+      <img class="big-img" src="./images/bula-clear.jpg">
+      <nav class="ingredients-box">
+        <ul class="ingredients-list">
+          <li class="ingredients-list-item list-title">材料</li>
+          <li class="ingredients-list-item">鮮奶油 250ml</li>
+          <li class="ingredients-list-item">牛奶 240ml</li>
+          <li class="ingredients-list-item">糖 90g</li>
+          <li class="ingredients-list-item">全蛋 3顆</li>
+          <li class="ingredients-list-item">二號砂糖少許</li>
+        </ul>
+      </nav>
        <!-- 有圖的話 把div換成img 不要寫在裡面-->
       <div class="step-box">
-        <h1 class="step-box-content">步驟</h1>
-        <div class="text-bottom-line"></div>
+        <h1 class="step-box-content">製作方法</h1>
+
       </div>
       <div class="producing-process">
         <div class="step-div">
@@ -105,5 +120,6 @@
 <footer class="footer">
   Copy right
 </footer>
+<script type="text/javascript" , src="js/script_subpage.js.js"></script>
 
 </html>

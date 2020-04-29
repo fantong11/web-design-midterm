@@ -4,8 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet"
-    href="https://fonts.google.com/specimen/Roboto?category=Sans+Serif&sort=popularity&selection.family=Roboto:ital@1">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="CSS/style.css">
   <script type="text/javascript" , src="js/jquery-3.5.0.js"></script>
   <title>Dessert</title>
@@ -15,7 +14,10 @@
   <header>
     <div class="head-title">
       <div class="head-container">
-        <h1 class="logo-dessert">Dessert</h1>
+        <div class="logo-dessert">
+          <img class="logo-img" src="images/logo.png" alt="Logo Lost">
+          <h1>Dessert</h1>
+        </div>
         <div class="head-menu">
           <nav class="nav">
             <ul class="nav-list">
@@ -26,8 +28,8 @@
             </ul> <!-- nav-box-list -->
           </nav> <!-- nav-box -->
           <div class="logo-icon">
-            <img class="btn-fb" src="images/facebook_logos_PNG19752.png" alt="FB Lost">
-            <img class="btn-ig" src="images/ig_logo3.png" alt="IG Lost">
+            <img class="btn-fb" src="images/fb_logo.png" alt="FB Lost">
+            <img class="btn-ig" src="images/ig_logo.png" alt="IG Lost">
           </div> <!-- logo-icon -->
         </div> <!-- head-menu -->
       </div> <!-- head-container -->
@@ -35,41 +37,77 @@
   </header>
   <article>
     <div class="top-article">
-      <img class="berry-cake" src="images/berry_cake.jpg" alt="Cake Lost">
+      <div class="top-img">
+        <img class="berry-cake" src="images/berry_cake.jpg" alt="Cake Lost">
+        <div class="berry-cake-title">
+          <div>
+            <h1>遨遊甜點王國</h1>
+          </div>
+          <div class="line"></div>
+          <div class="berry-cake-content">
+            <p>~~~~~~~~~點擊按鈕進入本月精選甜點~~~~~~~~~</p>
+          </div>
+          <div class="button"><a href="#">查看精選</a></div>
+        </div> <!-- berry-cake-title -->
+      </div> <!-- top-img -->
       <div class="about-us">
         <div class="about-us-content">
           <h1 class="mid-word">關於我們</h1>
           <p>我們至始至終都希望能夠以最簡單的方法</p>
-          <p >教導大家在家自己動手</p>
+          <p>教導大家在家自己動手</p>
           <p>做出最美味的甜點</p>
           <p>讓甜點不單單只是美味好看</p>
-          <p>同時也洋溢著「家」的幸福與溫暖</p>        
-        </div>
-      </div>  
-    </div>
+          <p>同時也洋溢著「家」的幸福與溫暖</p>
+        </div> <!-- about-us-content -->
+      </div> <!-- about-us-->
+    </div> <!-- top-article-->
     <div class="article-container">
       <div class="dessert-content">
         <div class="content">
           <div class="content-title">
             <h1>探索甜點世界</h1>
+            <div class="content-info">
+              <p>幸福來自雙手的餘溫</p>
+            </div>
+            <div class="recipe-div">
+              <a class="recipe-link" href="#">查看所有食譜</a>
+            </div>
           </div>
-          <!-- 探索甜點世界 -->
         </div>
         <div class="dessert-img">
-          <a href="#">
+          <a href="index_sub1.html">
             <img class="brulee-img zoom-img" src="images/bula-new.jpg" alt="Brulee Lost">
           </a>
           <a href="#">
-            <img class="souffle-img zoom-img" src="images/layer-cake-new.jpg" alt="Souffle Lost">
+            <img class="layer-img zoom-img" src="images/layer-cake-new.jpg" alt="Souffle Lost">
+          </a>
+          <a href="index_sub2.html">
+            <img class="perl-img zoom-img" src="images/perl-new.jpg" alt="Melaleuca cake Lost">
           </a>
           <a href="#">
-            <img class="melaleuca-img zoom-img" src="images/perl-new.jpg" alt="Melaleuca cake Lost">
+            <img class="brownie-img zoom-img" src="images/brownie-new.jpg" alt="Melaleuca cake Lost">
+          </a>
+        </div> <!-- dessert-img -->
+        <div class="more-img">
+          <a href="#">
+            <img class="zoom-img" src="images/special_cake.jpg" alt="Lost">
           </a>
           <a href="#">
-            <img class="melaleuca-img zoom-img" src="images/brownie-new.jpg" alt="Melaleuca cake Lost">
+            <img class="zoom-img" src="images/pyramid.jpg" alt="Lost">
           </a>
-        </div>        
-      </div> 
+        </div>
+        <div class="content">
+          <div class="content-title-two">
+            <h1>新奇是我們的專長</h1>
+            <div class="content-two-info">
+              <p>人生有限但創意無限</p>
+            </div>
+            <div class="content-two-div">
+              <a href="#">查看所有食譜</a>
+            </div>
+          </div>
+        </div>
+      </div> <!-- dessert-content -->
     </div> <!-- article-container -->
   </article>
   <footer class="footer">

@@ -7,7 +7,7 @@ body {
     margin: 0;
     background: rgb(255, 255, 255);
     font-weight: 300;
-    font-family: 'Roboto:ital@1', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 /*------------------------header---------------------------*/
@@ -17,13 +17,16 @@ header {
     background: rgba(244, 165, 96, 0);
     position: fixed;
     transition-duration: 0.5s;
+    z-index: 100;
+    /* background-color: #ffffff;
+    box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    -webkit-box-shadow: 0 8px 6px -6px #999; */
 }
 
 
 .head-container {
     width: 1056px;
-    padding-top: 16px;
-    padding-bottom: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,8 +36,13 @@ header {
 }
 
 .logo-dessert {
+    width: auto;
+    display: flex;
     margin: 0;
-    float: left;
+}
+
+.logo-img {
+    width: 15%;
 }
 
 .head-menu {
@@ -52,7 +60,9 @@ header {
     display: flex;
     justify-content: space-evenly;
 }
+
 /* ------------- */
+
 .nav-list-item-link {
     color: #FDF0D5;
     font-weight: bold;
@@ -65,38 +75,42 @@ header {
     /* transition: all 0.5s; */
 }
 
-.link-animation{
-	transition: all 0.5s;
-	border: 1px solid rgba(255,255,255,0);
-	position: relative; 
-	}
+.link-animation {
+    transition: all 0.5s;
+    border: 1px solid rgba(255, 255, 255, 0);
+    position: relative;
+}
 
-	.link-animation span{
-	z-index: 2; 
-	display: block;
-	position: absolute;
-	width: 100%;
-	height: 100%;   
-	}
-	.link-animation::before{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	opacity: 0;
-	background-color: rgba(0,0,0,0.3);
-	transition: all 0.4s;
-	transform: scale(0.5, 1);
-	}
-	.link-animation:hover::before{
-	opacity: 1;
-	-webkit-transform: scale(1, 1);
-	transform: scale(1, 1);
-    }
+.link-animation span {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.link-animation::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    background-color: rgba(224, 197, 197, 0.3);
+    transition: all 0.4s;
+    transform: scale(0.5, 1);
+}
+
+.link-animation:hover::before {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
 /* -------------- */
+
 .logo-icon {
     width: 66px;
     display: flex;
@@ -114,12 +128,71 @@ header {
 }
 
 /*------------------------article---------------------------*/
+
 .top-article {
     margin: 0;
 }
 
+.top-img {
+    margin-bottom: -6px;
+    position: relative;
+}
+
 .berry-cake {
     width: 100%;
+}
+
+.berry-cake-title {
+    width: 480px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-content: space-around;
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    top: 40%; 
+    transform: translate(-50%, -50%);
+}
+
+.berry-cake-title h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 2px 2px 2px black;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(156, 156, 156);
+}
+
+.button {
+    width: 120px;
+    /* height: 50px; */
+    display: block;
+    background-color: #F4A460; 
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    z-index: 20;
+    border-radius: 100px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.486), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button a {
+    color: rgb(124, 85, 7);
+    font-size: 24px;
+    text-decoration: none;
 }
 
 .article-container {
@@ -145,36 +218,63 @@ header {
 }
 
 .mid-word {
+    color: rgb(124, 85, 7);
     font-size: 40px;
     margin: 0;
 }
 
 .about-us-content p {
+    color: rgb(124, 85, 7);
     margin: 0;
     font-size: 24px;
-    line-height: 2;
+    line-height: 3;
 }
 
 .dessert-content {
     display: flex;
     justify-content: space-between;
     align-content: space-between;
-    flex-wrap: nowrap;
-    /* margin-top: 35px; */
+    flex-wrap: wrap;
 }
 
 .content {
     width: 510px;
     height: 300px;
-    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
-.content-title h1{
+.content-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.content-title h1 {
+    width: 100%;
+    color: rgb(124, 85, 7);
     padding: 0;
     margin: 0;
     text-align: center;
     font-size: 40px;
-    margin-top: 25px;
+}
+
+.content-info {
+    width: 100%;
+    margin: 0;
+    color: rgb(124, 85, 7);
+    text-align: center;
+}
+
+.recipe-div {
+    width: 100%;
+    text-align: center;
+}
+
+.recipe-link {
+    color: rgb(124, 85, 7);
 }
 
 .dessert-img {
@@ -199,31 +299,59 @@ header {
     transform: scale(1.2);
 }
 
+.more-img {
+    width: 510px;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-img img{
+    width: 237px;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.content-title-two {
+    width: 510px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.content-title-two h1 {
+    width: 100%;
+    color: rgb(124, 85, 7);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.content-two-info {
+    width: 100%;
+    margin: 0;
+    color: rgb(124, 85, 7);
+    text-align: center;
+}
+
+.content-two-div {
+    width: 100%;
+    text-align: center;
+}
+
+.content-two-div a {
+    color: rgb(124, 85, 7);
+}
+
 .footer {
     width: 100%;
     background: #ffa042;
     padding-top: 24px;
     padding-bottom: 25px;
-    /* margin-top: 35px; */
     text-align: center;
 }
-
-/* .scrolling{
-    margin-top: 1000px;
-} */
-
-/* 蔡仲文 保留 */
-
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-
-/* .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-} */
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-
-/* .sticky + .content {
-    padding-top: 102px;
-} */

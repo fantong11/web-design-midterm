@@ -4,8 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet"
-    href="https://fonts.google.com/specimen/Roboto?category=Sans+Serif&sort=popularity&selection.family=Roboto:ital@1">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="CSS/style_sub2.css">
   <script type="text/javascript" , src="js/jquery-3.5.0.js"></script>
   <title>Dessert</title>
@@ -15,14 +14,17 @@
   <header>
     <div class="head-title">
       <div class="head-container">
-        <h1 class="logo-dessert">Dessert</h1>
+        <div class="logo-dessert">
+          <img class="logo-img" src="images/logo.png" alt="Logo Lost">
+          <h1>Dessert</h1>
+        </div>
         <div class="head-menu">
           <nav class="nav">
             <ul class="nav-list">
-              <li class="nav-list-item"><a class="nav-list-item-link" href="#">Home</a></li>
-              <li class="nav-list-item"><a class="nav-list-item-link" href="#">About</a></li>
-              <li class="nav-list-item"><a class="nav-list-item-link" href="#">Contact</a></li>
-              <li class="nav-list-item"><a class="nav-list-item-link" href="#">Help</a></li>
+              <li class="nav-list-item"><a class="nav-list-item-link link-animation" href="index.html">首頁</a></li>
+              <li class="nav-list-item"><a class="nav-list-item-link link-animation" href="#">關於我們</a></li>
+              <li class="nav-list-item"><a class="nav-list-item-link link-animation" href="#">我們的甜點</a></li>
+              <li class="nav-list-item"><a class="nav-list-item-link link-animation" href="#">聯絡我們</a></li>
             </ul> <!-- nav-box-list -->
           </nav> <!-- nav-box -->
           <div class="logo-icon">
@@ -33,84 +35,104 @@
       </div> <!-- head-container -->
     </div> <!-- head-title -->
   </header>
+  <div class="empty"></div>
   <article>
     <div class="article-container">
-      <img class="sandwich-cake" src="images/pearlpancake.jpg" alt="Cake Lost">
-      <h1 class="step-text">步驟</h1>
+      <img class="sandwich-cake" src="images/pearlpancake-clear.jpg" alt="Cake Lost">
+      <nav class="ingredients-box">
+        <ul class="ingredients-list">
+          <li class="ingredients-list-item list-title">材料</li>
+          <li class="ingredients-list-item">全蛋三顆</li>
+          <li class="ingredients-list-item">低筋麵粉 50g</li>
+          <li class="ingredients-list-item">牛奶 50g</li>
+          <li class="ingredients-list-item">糖 50g</li>
+          <li class="ingredients-list-item">少量珍珠</li>
+        </ul>
+      </nav>
+      <div class="step-box">
+        <h1 class="step-box-content">製作方法</h1>
+
+      </div>
       <div class="producing-process">
-        <div class="step-box">
+        <div class="step-div">
           <div class="step-content">
             <div class="step-img">
               <img class="brulee-img" src="images/sub2-step1.jpg" alt="Brulee Lost">
               <!-- 放圖片 -->
             </div>
             <div class="step-info">
-              <h3 class="step-title">1</h3>
+              <h3 class="step-title">STEP 1</h3>
+              <div class="text-bottom-line"></div>
               <p class="step-info-content">
                 將蛋黃、牛奶及過篩後的低筋麵粉攪拌混和均勻備用</p>
             </div> <!-- step-info -->
           </div> <!-- step-content -->
         </div> <!-- step-box -->
-        <div class="step-box">
+        <div class="step-div">
           <div class="step-content">
             <div class="step-img">
               <img class="brulee-img" src="images/sub2-step2.jpg" alt="Brulee Lost">
               <!-- 放圖片 -->
             </div>
             <div class="step-info">
-              <h3 class="step-title">2</h3>
+              <h3 class="step-title">STEP 2</h3>
+              <div class="text-bottom-line"></div>
               <p class="step-info-content">
                 將蛋白打發成硬性發泡，過程中分次加入糖。</p>
             </div> <!-- step-info -->
           </div> <!-- step-content -->
         </div> <!-- step-box -->
-        <div class="step-box">
+        <div class="step-div">
           <div class="step-content">
             <div class="step-img">
               <img class="brulee-img" src="images/sub2-step3.jpg" alt="Brulee Lost">
               <!-- 放圖片 -->
             </div>
             <div class="step-info">
-              <h3 class="step-title">3</h3>
+              <h3 class="step-title">STEP 3</h3>
+              <div class="text-bottom-line"></div>
               <p class="step-info-content">
                 將步驟1及步驟2混和攪拌均勻後就可下鍋煎囉！</p>
             </div> <!-- step-info -->
           </div> <!-- step-content -->
         </div> <!-- step-box -->
-        <div class="step-box">
+        <div class="step-div">
           <div class="step-content">
             <div class="step-img">
               <img class="brulee-img" src="images/sub2-step4.jpg" alt="Brulee Lost">
               <!-- 放圖片 -->
             </div>
             <div class="step-info">
-              <h3 class="step-title">4</h3>
+              <h3 class="step-title">STEP 4</h3>
+              <div class="text-bottom-line"></div>
               <p class="step-info-content">
                 全程小火，並蓋鍋悶3-5分鐘翻面</p>
             </div> <!-- step-info -->
           </div> <!-- step-content -->
         </div> <!-- step-box -->
-        <div class="step-box">
+        <div class="step-div">
           <div class="step-content">
             <div class="step-img">
               <img class="brulee-img" src="images/sub2-step5.jpg" alt="Brulee Lost">
               <!-- 放圖片 -->
             </div>
             <div class="step-info">
-              <h3 class="step-title">5</h3>
+              <h3 class="step-title">STEP 5</h3>
+              <div class="text-bottom-line"></div>
               <p class="step-info-content">
-                煎成金黃色即可完成</p>
+                煎成金黃色即可完成 </p>
             </div> <!-- step-info -->
           </div> <!-- step-content -->
         </div> <!-- step-box -->
-        <div class="step-box">
+        <div class="step-div">
           <div class="step-content">
             <div class="step-img">
               <img class="brulee-img" src="images/sub2-step6.jpg" alt="Brulee Lost">
               <!-- 放圖片 -->
             </div>
             <div class="step-info">
-              <h3 class="step-title">6</h3>
+              <h3 class="step-title">STEP 6</h3>
+              <div class="text-bottom-line"></div>
               <p class="step-info-content">
                 最後淋上鮮奶油及珍珠就好囉～～～</p>
             </div> <!-- step-info -->
@@ -124,6 +146,6 @@
     Copy right
   </footer>
 </body>
-<script type="text/javascript" , src="js/script.js"></script>
+<script type="text/javascript" , src="js/script_subpage.js.js"></script>
 
 </html>
