@@ -97,6 +97,7 @@ header {
     /* padding-top: 17px; */
     padding-bottom: 15px;
     text-align: center;
+    margin: 0;
 }
 
 .about-us-content {
@@ -106,6 +107,9 @@ header {
 .mid-word {
     font-size: 40px;
     margin: 0;
+}
+.mid-word{
+
 }
 
 .about-us-content p {
