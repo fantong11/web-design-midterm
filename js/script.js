@@ -37,12 +37,12 @@ function animate_bg(ele, from, to) {
 //     }
 // });
 
-/*當滑鼠放上選單時會變顏色*/
-$(".nav-list-item-link").hover(function () {
-    // 滑鼠在上面的時候
-    $(this).css("background", "#d19b05");
-},
-function() {
-    // 滑鼠不在上面的時候
-    $(this).css("background", "#e7ab06");
-});
+// /*當滑鼠放上選單時會變顏色*/
+// $(".nav-list-item-link").hover(function () {
+//     // 滑鼠在上面的時候
+//     $(this).css("background", "#d19b05");
+// },
+// function() {
+//     // 滑鼠不在上面的時候
+//     $(this).css("background", "#e7ab06");
+// });
