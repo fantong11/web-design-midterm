@@ -7,7 +7,7 @@ body {
     margin: 0;
     background: #ffe4ca;
     font-weight: 300;
-    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 /*------------------------header---------------------------*/
@@ -82,7 +82,7 @@ header {
     height: 546px;
     background-color: rgb(233, 117, 8);
 }
-.step-box {
+.step-box,.text-bottom-line {
     height: 136px;
     background-color: #ED474A;
     margin-top: 50px;
