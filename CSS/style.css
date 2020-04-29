@@ -96,9 +96,13 @@ header {
     /* padding-top: 17px; */
     padding-bottom: 15px;
     text-align: center;
-}
-.mid-word {
     margin: 0;
+}
+.mid-word-title {
+    margin: 0;
+}
+.mid-word{
+
 }
 
 .dessert-content {
