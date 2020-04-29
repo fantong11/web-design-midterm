@@ -7,16 +7,15 @@ $(document).ready(function () {
     $(window).scroll(function () {
         scroll_start = $(this).scrollTop();
         if (scroll_start > Heightofit) {
-            $('header').css('background-color', 'rgba(255, 255, 255, 0.9)');
-            // $('header').css('-webkit-box-shadow', '');
-            // $('header').css('-moz-box-shadow', '');
-            // $('header').css('box-shadow', '');
-
-        } else {
             $('header').css('background-color', '#ffffff');
             $('header').css('-webkit-box-shadow', '0 8px 6px -6px #999');
             $('header').css('-moz-box-shadow', '0 8px 6px -6px #999');
             $('header').css('box-shadow', '0 8px 6px -6px #999');
+        } else {
+            $('header').css('background-color', 'transparent');
+            $('header').css('-webkit-box-shadow', '');
+            $('header').css('-moz-box-shadow', '');
+            $('header').css('box-shadow', '');
         }
     });
 });
