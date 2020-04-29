@@ -17,7 +17,6 @@ header {
     background: rgba(244, 165, 96, 0);
     position: fixed;
     transition-duration: 0.5s;
-    z-index: 100;
 }
 
 .head-container {
@@ -27,7 +26,6 @@ header {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    /* padding-top: 10px; */
 }
 
 .logo-dessert {
@@ -145,13 +143,8 @@ header {
 }
 
 .step-box {
-    background: white;
-    margin-top: 35px;
-}
-
-.step-box,.text-bottom-line {
     height: 136px;
-    background: linear-gradient(to top left, #F4A460 0%, #ff99cc 100%);
+    background: linear-gradient(to top left, #ff8000 0%, #ff99cc 100%);
     margin-top: 50px;
     font-size: 24px;
     display: flex;
@@ -177,10 +170,16 @@ img {
 }
 
 .step-info {
-    background: linear-gradient(to top left, #F4A460 0%, #ffffff 100%);
+    background:linear-gradient(to top left, #ff9966 0%, #ff99cc 100%);
     width: 510px;
     border-radius: 8px;
     margin-left: 66px;
+}
+
+.text-bottom-line{
+    height: 2px;
+    width: 100%;
+    background-color: #FFFFFF;
 }
 
 .step-title {
