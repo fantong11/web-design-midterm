@@ -143,11 +143,6 @@ header {
 }
 
 .step-box {
-    background: white;
-    margin-top: 35px;
-}
-
-.step-box {
     height: 136px;
     background: linear-gradient(to top left, #ff8000 0%, #ff99cc 100%);
     margin-top: 50px;
