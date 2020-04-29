@@ -31,8 +31,13 @@ header {
 }
 
 .logo-dessert {
+    width: auto;
+    display: flex;
     margin: 0;
-    float: left;
+}
+
+.logo-img {
+    width: 15%;
 }
 
 .head-menu {
