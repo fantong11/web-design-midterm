@@ -265,7 +265,7 @@ header {
     text-align: center;
 }
 
-.berry-cake {
+/* .berry-cake {
     animation-name: test;
     animation-duration: 10s;
     animation-timing-function: linear;
@@ -276,4 +276,4 @@ header {
 @keyframes test {
     0%{opacity: 0.5;transform: translateX(30px);}
     100%{opacity: 1;transform: translateX(0px);}
-}
+} */
