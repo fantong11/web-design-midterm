@@ -5,7 +5,7 @@ html {
 body {
     width: 100%;
     margin: 0;
-    background: rgb(255, 255, 255);
+    background: rgba(255, 222, 133, 0.5);
     font-weight: 300;
     font-family: 'Noto Sans TC', sans-serif;
 }
@@ -27,7 +27,6 @@ header {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    /* padding-top: 10px; */
 }
 
 .logo-dessert {
@@ -135,6 +134,33 @@ header {
     width: 1056px;
 }
 
+.ingredients-box {
+    background-color: rgba(255, 170, 96, 0.8);
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    border: hidden 2px rgba(255, 170, 96);
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(428%, -102%);
+}
+
+.ingredients-list {
+    margin-top: 40px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.ingredients-list-item {
+    /* color: #FDF0D5; */
+    color: rgb(31, 29, 25);
+}
+
+.list-title {
+    list-style: none;
+}
+
 .pro-box {
     background: white;
     width: 50px;
@@ -145,22 +171,15 @@ header {
 }
 
 .step-box {
-    background: white;
-    margin-top: 35px;
-}
-
-.step-box, .text-bottom-line {
     height: 136px;
-    background: linear-gradient(to top left, #F4A460 0%, #ff99cc 100%);
-    margin-top: 50px;
+    background: linear-gradient(to bottom, #F4A460 0%, #ffffff 100%);
+    margin-top: -180px;
     font-size: 24px;
     display: flex;
-    text-align: center;
-    /*垂直置中(配合display:flex)*/
-    justify-content: center;
-    /*水平置中(配合display:flex)*/
+    text-align: center;/*垂直置中(配合display:flex)*/
+    justify-content:center;/*水平置中(配合display:flex)*/
     align-items: center;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 .step-content {
@@ -183,6 +202,12 @@ img {
     width: 510px;
     border-radius: 8px;
     margin-left: 66px;
+}
+
+.text-bottom-line{
+    height: 2px;
+    width: 100%;
+    background-color: #FFFFFF;
 }
 
 .step-title {
