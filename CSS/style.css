@@ -101,6 +101,10 @@ header {
     align-items: center;
 }
 
+.logo-icon {
+    padding: 16px 30px;
+}
+
 .logo-icon img {
     width: 25px;
     height: 25px;
