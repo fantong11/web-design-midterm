@@ -163,7 +163,7 @@ header {
 }
 .step-box,.text-bottom-line {
     height: 136px;
-    background: linear-gradient(to top left, #ff9966 0%, #ff99cc 100%);
+    background: linear-gradient(to top left, #ff8000 0%, #ff99cc 100%);
     margin-top: 50px;
     font-size: 24px;
     display: flex;
@@ -212,7 +212,7 @@ header {
 
 .footer {
     width: 100%;
-    background: #FFF;
+    background: #ffa042;
     padding-top: 24px;
     padding-bottom: 25px;
     margin-top: 35px;
