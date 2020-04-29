@@ -189,8 +189,10 @@ header {
     margin-top: -180px;
     font-size: 24px;
     display: flex;
-    text-align: center;/*垂直置中(配合display:flex)*/
-    justify-content:center;/*水平置中(配合display:flex)*/
+    text-align: center;
+    /*垂直置中(配合display:flex)*/
+    justify-content: center;
+    /*水平置中(配合display:flex)*/
     align-items: center;
     color: rgb(0, 0, 0);
 }
@@ -220,7 +222,7 @@ header {
     margin-left: 66px;
 }
 
-.text-bottom-line{
+.text-bottom-line {
     height: 2px;
     width: 100%;
     background-color: #FFFFFF;

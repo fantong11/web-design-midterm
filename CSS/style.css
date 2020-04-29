@@ -24,7 +24,6 @@ header {
     -webkit-box-shadow: 0 8px 6px -6px #999; */
 }
 
-
 .head-container {
     width: 1056px;
     display: flex;
@@ -160,7 +159,7 @@ header {
     position: absolute;
     z-index: 10;
     left: 50%;
-    top: 40%; 
+    top: 40%;
     transform: translate(-50%, -50%);
 }
 
@@ -182,7 +181,7 @@ header {
     width: 120px;
     /* height: 50px; */
     display: block;
-    background-color: #F4A460; 
+    background-color: #F4A460;
     border: none;
     color: white;
     padding: 15px 30px;
@@ -191,7 +190,7 @@ header {
     border-radius: 100px;
     cursor: pointer;
     text-align: center;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.486), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.486), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .button a {
@@ -312,7 +311,7 @@ header {
     justify-content: space-between;
 }
 
-.more-img img{
+.more-img img {
     width: 237px;
     height: 100%;
     border-radius: 8px;

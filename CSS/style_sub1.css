@@ -127,6 +127,7 @@ header {
 }
 
 /* -------------- */
+
 .logo-dessert {
     width: auto;
     display: flex;
@@ -153,8 +154,8 @@ header {
     height: 25px;
 }
 
-
 /*------------------------article---------------------------*/
+
 .empty {
     padding-top: 90px;
 }
@@ -206,8 +207,10 @@ header {
     margin-top: -180px;
     font-size: 24px;
     display: flex;
-    text-align: center;/*垂直置中(配合display:flex)*/
-    justify-content:center;/*水平置中(配合display:flex)*/
+    text-align: center;
+    /*垂直置中(配合display:flex)*/
+    justify-content: center;
+    /*水平置中(配合display:flex)*/
     align-items: center;
     color: rgb(0, 0, 0);
 }
@@ -217,6 +220,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .step-div {
     width: 1056px;
     display: flex;
@@ -237,12 +241,12 @@ header {
     font-size: 24px;
     text-align: center;
 }
-.text-bottom-line{
+
+.text-bottom-line {
     height: 2px;
     width: 100%;
     background-color: #FFFFFF;
 }
-
 
 /*------------------------body---------------------------*/
 
