@@ -16,7 +16,7 @@ header {
     width: 100%;
     background: rgba(244, 165, 96, 0);
     position: fixed;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .head-container {
@@ -125,6 +125,7 @@ header {
     width: 1056px;
     margin-left: auto;
     margin-right: auto;
+    padding: 70px 0px 70px 0px;
 }
 
 .about-us {
@@ -133,7 +134,7 @@ header {
     background: #F4A460;
     height: 450px;
     /* padding-top: 17px; */
-    padding-bottom: 15px;
+    padding: 70px 0px 70px 0px;
     text-align: center;
     margin: 0;
 }
@@ -148,6 +149,7 @@ header {
 }
 
 .about-us-content p {
+    margin: 0;
     font-size: 24px;
     line-height: 2;
 }
@@ -157,7 +159,7 @@ header {
     justify-content: space-between;
     align-content: space-between;
     flex-wrap: nowrap;
-    margin-top: 35px;
+    /* margin-top: 35px; */
 }
 
 .content {
@@ -188,12 +190,20 @@ header {
     height: 134px;
 }
 
+.zoom-img {
+    transition: transform .2s;
+}
+
+.zoom-img:hover {
+    transform: scale(1.2);
+}
+
 .footer {
     width: 100%;
     background: #ffa042;
     padding-top: 24px;
     padding-bottom: 25px;
-    margin-top: 35px;
+    /* margin-top: 35px; */
     text-align: center;
 }
 
