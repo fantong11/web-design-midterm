@@ -81,6 +81,60 @@ body {
     transform: rotate(-135deg);
 }
 
+.nav-item img {
+    width: 30px;
+}
+
+#carouselFade img {
+    width: 200px;
+    -webkit-filter:brightness(.85);
+}
+
+.carousel-caption {
+    top: 35%;
+}
+
+.carousel-caption h1 {
+    font-size: 60px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 2px 2px 2px black;
+}
+
+.about {
+    padding: 50px 0 50px 0;
+    background: #F4A460;
+}
+
+.dessert-img {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: 510px;
+}
+
+
+
+@media (max-width: 992px) {
+    .carousel-caption h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 25%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 20%;
+    }
+}
 /* header {
     width: 100%;
     background: rgba(244, 165, 96, 0);
