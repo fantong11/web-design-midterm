@@ -129,7 +129,13 @@ header {
     width: 25px;
     height: 25px;
 }
-
+#menu {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+}
 /*------------------------article---------------------------*/
 
 .empty {
