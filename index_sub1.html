@@ -4,42 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
   <title>Brulee</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="./CSS/style_sub1.css" type="text/css" rel="stylesheet">
-  <script type="text/javascript" , src="js/jquery-3.5.0.js"></script>
 </head>
 
 <body>
   <header>
-    <div class="head-title">
-      <div class="head-container">
-        <div class="logo-dessert">
-          <img class="logo-img" src="images/logo.png" alt="Logo Lost">
-          <h1>HaoDesSerT</h1>
+    <nav class="navbar navbar-expand-md navbar-light bg-light border-bottom fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="logo" href="#">
+          <img class="logo-img" src="images/logo-expand.png">
+        </a>
+        <button class="navbar-toggler hamburg-menu" type="button" data-toggle="collapse"
+          data-target="#navbarResponsive">
+          <div class="animated-hamburg"><span></span><span></span><span></span></div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav justify-content-around col-md-8 ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">首頁</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">我們的甜點</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">關於我們</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">聯絡我們</a>
+            </li>
+          </ul>
         </div>
-        <div class="head-menu">
-          <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-list-item"><a class="nav-list-item-link link-animation" href="index.html">首頁</a></li>
-              <li class="nav-list-item"><a class="nav-list-item-link link-animation" href="#">關於我們</a></li>
-              <li class="nav-list-item"><a class="nav-list-item-link link-animation" href="#">我們的甜點</a></li>
-              <li class="nav-list-item"><a class="nav-list-item-link link-animation" href="#">聯絡我們</a></li>
-            </ul> <!-- nav-box-list -->
-          </nav> <!-- nav-box -->
-          <div class="logo-icon">
-            <img class="btn-fb" src="images/fb_logo.png" alt="FB Lost">
-            <img class="btn-ig" src="images/ig_logo.png" alt="IG Lost">
-          </div> <!-- logo-icon -->
-        </div> <!-- head-menu -->
-      </div> <!-- head-container -->
-    </div> <!-- head-title -->
+      </div>
+    </nav>
   </header>
   <div class="empty"></div>
   <article>
-    <div class="article-container">
-      <img class="big-img" src="./images/bula-clear.jpg">
+    <div class="container">
+      <div class="row">
+        <img class="col-12 p-0 big-img" src="./images/bula-clear.jpg">
+      </div>
       <nav class="ingredients-box">
         <ul class="ingredients-list">
           <li class="ingredients-list-item list-title">材料</li>
@@ -59,64 +67,63 @@
         <li>二號砂糖少許</a>
       </ul>
       <!-- 有圖的話 把div換成img 不要寫在裡面-->
-      <div class="step-box">
-        <h1 class="step-box-content">製作方法</h1>
-
+      <div class="row step-box">
+        <h1 class="col-10 step-box-content">製作方法</h1>
       </div>
-      <div class="producing-process">
-        <div class="step-div">
-          <img class="step-img" src="./images/sub1-step1.jpg">
+      <div>
+        <div class="row step-div">
+          <img class="col-md-5 p-0 step-img" src="./images/sub1-step1.jpg">
 
           <!-- 有圖的話 把div換成img 不要寫在裡面-->
-          <div class="step-text">
+          <div class="col-md-7 p-0 step-text">
             <h3 class="step-title">STEP 1</h3>
             <div class="text-bottom-line"></div>
             <p>鮮奶與砂糖混合拌勻，用中小火煮溫熱，砂糖融化即可，不需煮滾</p>
           </div>
         </div>
-        <div class="step-div">
-          <div class="step-text">
+        <div class="row step-div">
+          <div class="col-md-7 p-0 step-text">
             <h3 class="step-title">STEP 2</h3>
             <div class="text-bottom-line"></div>
             <p>雞蛋與鮮奶油混合拌勻</p>
           </div>
-          <img class="step-img" src="./images/sub1-step2.jpg">
+          <img class="col-md-5 p-0 step-img" src="./images/sub1-step2.jpg">
         </div>
-        <div class="step-div">
-          <img class="step-img" src="./images/sub1-step3.jpg">
-          <div class="step-text">
+        <div class="row step-div">
+          <img class="col-md-5 p-0 step-img" src="./images/sub1-step3.jpg">
+          <div class="col-md-7 p-0 step-text">
             <h3 class="step-title">STEP 3</h3>
             <div class="text-bottom-line"></div>
             <p>再將鮮奶倒到鮮奶油裡混合</p>
           </div>
         </div>
-        <div class="step-div">
-          <div class="step-text">
+        <div class="row step-div">
+          <div class="col-md-7 p-0 step-text">
             <h3 class="step-title">STEP 4</h3>
             <div class="text-bottom-line"></div>
             <p>布丁液過篩兩次，濾掉雜質</p>
           </div>
-          <img class="step-img" src="./images/sub1-step4.jpg">
+          <img class="col-md-5 p-0 step-img" src="./images/sub1-step4.jpg">
         </div>
-        <div class="step-div">
-          <img class="step-img" src="./images/sub1-step5.jpg">
-          <div class="step-text">
+        <div class="row step-div">
+          <img class=" col-md-5 p-0 step-img" src="./images/sub1-step5.jpg">
+          <div class="col-md-7 p-0 step-text">
             <h3 class="step-title">STEP 5</h3>
             <div class="text-bottom-line"></div>
             <p>烤箱預熱上下170/170度，用水浴法，深烤盤裡倒入1公分高的熱水，烤30～35分鐘，時間到後拿出來搖晃看看，若會晃動就再延長烤的時間。</p>
           </div>
         </div>
-        <div class="step-div">
-          <div class="step-text">
+        <div class="row step-div">
+          <div class="col-md-7 p-0 step-text">
             <h3 class="step-title">STEP 6</h3>
             <div class="text-bottom-line"></div>
             <p>出爐後放涼，表面灑上砂糖</p>
           </div>
-          <img class="step-img" src="./images/sub1-step6.jpg">
+          <img class=" col-md-5 p-0 step-img" src="./images/sub1-step6.jpg">
         </div>
-        <div class="step-div">
-          <img class="step-img" src="./images/sub1-step7.jpg">
-          <div class="step-text">
+        <div class="row step-div">
+          <img class=" col-md-5 p-0 step-img" src="./images/sub1-step7.jpg">
+          <div class="col-md-7 p-0 step-text">
             <h3 class="step-title">STEP 7</h3>
             <div class="text-bottom-line"></div>
             <p>利用噴槍把上面砂糖烤焦，之後就可以享用囉！</p>
@@ -129,6 +136,8 @@
 <footer class="footer">
   Copy right
 </footer>
+<script type="text/javascript" , src="js/jquery-3.5.1.js"></script>
+<script type="text/javascript" , src="js/bootstrap.min.js"></script>
 <script type="text/javascript" , src="js/script_subpage.js"></script>
 
 </html>
