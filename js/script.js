@@ -60,6 +60,9 @@ var firebaseConfig = {
         ques: question,
         desctiption: content
     });
+    document.getElementById("name").value="";
+    document.getElementById("question").value="";
+    document.getElementById("content").value="";
     
   }
   
