@@ -63,6 +63,7 @@ var firebaseConfig = {
     document.getElementById("name").value="";
     document.getElementById("question").value="";
     document.getElementById("content").value="";
+    alert("謝謝您的回饋，您的意見就是我們的動力");
     
   }
   
