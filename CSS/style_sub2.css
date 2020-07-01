@@ -211,7 +211,13 @@ body {
     width: 1056px;
 }
 
-.ingredients-box {
+.moving-menu {
+    background-color: rgba(236, 100, 65, 0.8);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+/* .ingredients-box {
     background-color: rgba(255, 170, 96, 0.8);
     width: 200px;
     height: 230px;
@@ -219,7 +225,7 @@ body {
     border: hidden 2px rgba(255, 170, 96);
     display: flex;
     flex-wrap: wrap;
-    transform: translate(428%, -102%);
+    transform: translate(463%, -100%);
     font-size: 17px;
 }
 
@@ -233,7 +239,7 @@ body {
 .ingredients-list-item {
     /* color: #FDF0D5; */
     color: rgb(31, 29, 25);
-}
+} */
 
 .list-title {
     list-style: none;
@@ -262,6 +268,7 @@ body {
     color: rgb(0, 0, 0);
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
 }
 
 .step-div {
@@ -317,7 +324,25 @@ body {
 }
 
 @media (max-width: 768px) {
-    
+
+    .brulee-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .step-info {
+        height: 150px;
+    }
+
+    .step-title {
+        text-align: center;
+    }
+
+    .step-info-content {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -337,6 +362,6 @@ body {
     .step-info-content {
         text-align: center;
         margin-top: 20px;
-        font-size: 20px;
+        font-size: 17px;
     }
 }
