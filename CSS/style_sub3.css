@@ -147,3 +147,17 @@ button[type=submit] {
 button[type=submit]:hover {
   background-color:#8ABCB8;
 }
+footer {
+	background-color:  #F4A460;
+	padding:20px 0; 
+}
+
+footer p {	
+    line-height: 39px;
+    color:  rgb(124, 85, 7);
+}
+.down_photo{
+    width: 30px;
+    height: 30px; 
+    margin-right: 5%;   
+}
