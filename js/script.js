@@ -35,4 +35,33 @@ $(document).ready(function () {
 //         $(this).css("background", "#F4A460");
 //     }
 // );
+var firebaseConfig = {
+    apiKey: "AIzaSyAACLLt9eEszfIvHi_c28xE7-2ehhgpU-k",
+    authDomain: "finalwebproject-b660e.firebaseapp.com",
+    databaseURL: "https://finalwebproject-b660e.firebaseio.com",
+    projectId: "finalwebproject-b660e",
+    storageBucket: "finalwebproject-b660e.appspot.com",
+    messagingSenderId: "455956884478",
+    appId: "1:455956884478:web:cd0cdf4fc3fad5ebddeeaf",
+    measurementId: "G-CGF508ZT1C"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  var db = firebase.firestore();
+  function processFormData() {
+    const nameElement = document.getElementById("name");
+    const name = nameElement.value;
+    const questionElement = document.getElementById("question");
+    const question = questionElement.value;
+    const contentElement = document.getElementById("content");
+    const content = contentElement.value;
+    db.collection("usr").doc(name).set({
+        usr_name: name,
+        ques: question,
+        desctiption: content
+    });
+    
+  }
+  
+
 

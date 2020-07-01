@@ -136,7 +136,7 @@ body {
 	margin:7.5px 0;
 }
 
-input[type=submit] {
+button[type=submit] {
   background-color:#ABD0CE;
   color: white;
   cursor: pointer;
@@ -144,6 +144,6 @@ input[type=submit] {
   height: 48px;
 }
 
-input[type=submit]:hover {
+button[type=submit]:hover {
   background-color:#8ABCB8;
 }
