@@ -17,7 +17,7 @@ body {
 }
 
 .hamburg-menu:focus {
-    outline: 0;
+    outline:0;
 }
 
 .animated-hamburg {
@@ -197,7 +197,7 @@ body {
 /*------------------------article---------------------------*/
 
 .empty {
-    padding-top: 20px;
+    padding-top: 90px;
 }
 
 .article-container {
@@ -211,21 +211,17 @@ body {
     width: 1056px;
 }
 
-.moving-menu {
-    background-color: rgba(236, 100, 65, 0.8);
-    border-radius: 10px;
-    z-index: 1;
-}
-
-/* .ingredients-box {
-    background-color: rgba(255, 170, 96, 0.8);
+.ingredients-box {
+    background-color: rgba(236, 238, 127, 0.8);
+    position: fixed;
+    right: 0;
+    top: 64%;
     width: 200px;
     height: 230px;
     border-radius: 10px;
     border: hidden 2px rgba(255, 170, 96);
     display: flex;
     flex-wrap: wrap;
-    transform: translate(463%, -100%);
     font-size: 17px;
 }
 
@@ -235,11 +231,18 @@ body {
     justify-content: center;
     align-items: space-between;
 }
-
+.food_button{
+    position: fixed;
+    right: 0;
+    top: 95%;
+    border:0;
+    background-color: rgba(255, 170, 96, 0.8);
+    color:#fff;border-radius:10px;
+}
 .ingredients-list-item {
     /* color: #FDF0D5; */
     color: rgb(31, 29, 25);
-} */
+}
 
 .list-title {
     list-style: none;

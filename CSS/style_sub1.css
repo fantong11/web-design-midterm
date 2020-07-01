@@ -97,11 +97,6 @@ body {
     padding-top: 90px;
 }
 
-.big-img {
-    width: 100%;
-    background-color: rgb(233, 117, 8);
-}
-
 .ingredients-box {
     background-color: rgba(255, 170, 96, 0.8);
     width: 200px;
