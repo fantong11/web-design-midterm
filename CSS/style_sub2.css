@@ -212,10 +212,7 @@ body {
 }
 
 .ingredients-box {
-    background-color: rgba(236, 238, 127, 0.8);
-    position: fixed;
-    right: 0;
-    top: 64%;
+    background-color: rgba(255, 131, 15, 0.8);
     width: 200px;
     height: 230px;
     border-radius: 10px;
@@ -223,6 +220,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     font-size: 17px;
+    margin-top: 10px;
 }
 
 .ingredients-list {
@@ -232,12 +230,16 @@ body {
     align-items: space-between;
 }
 .food_button{
+    border:0;
+    background-color: rgba(255, 131, 15, 0.8);
+    color:#fff;border-radius:10px;
+}
+.food_menu{
+    display: flex;
+    flex-direction:column;
     position: fixed;
     right: 0;
-    top: 95%;
-    border:0;
-    background-color: rgba(255, 170, 96, 0.8);
-    color:#fff;border-radius:10px;
+    top: 64%;
 }
 .ingredients-list-item {
     /* color: #FDF0D5; */
