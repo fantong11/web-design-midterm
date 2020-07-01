@@ -1,13 +1,16 @@
 
 /* navigation bar animation*/
 $(document).ready(function () {
-    var scroll_start = 0;
-    var startchange = $('header');
-    var Heightofit = startchange.outerHeight();
-    $(window).scroll(function () {
-        scroll_start = $(this).scrollTop();
-        if (scroll_start > Heightofit) {
-            $('header').css('background-color', 'rgba(255, 255, 255, 0.9)');
-        }
+    $('.hamburg-menu').on('click', function () {
+        $('.animated-hamburg').toggleClass('open');
     });
 });
+$('#food_button').click(function() {
+    if( $('.ingredients-box').is(':visible') == false){
+        $('.ingredients-box').css('display','flex');
+        $('#food_button').val('隱藏食材');
+    }else{
+        $('.ingredients-box').css('display','none');
+        $('#food_button').val('顯示食材');
+    }
+})
