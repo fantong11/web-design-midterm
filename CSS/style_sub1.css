@@ -177,11 +177,18 @@ body {
 
 /*------------------------body---------------------------*/
 
-.footer {
-    width: 100%;
-    background: #ffa042;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    margin-top: 35px;
-    text-align: center;
+footer {
+	background-color:  #F4A460;
+    padding:20px 0; 
+    margin-top: 50px;
+}
+
+footer p {	
+    line-height: 39px;
+    color:  rgb(124, 85, 7);
+}
+.down_photo{
+    width: 30px;
+    height: 30px; 
+    margin-right: 5%;   
 }
