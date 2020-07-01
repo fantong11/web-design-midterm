@@ -12,6 +12,85 @@ body {
 
 /*------------------------header---------------------------*/
 
+.hamburg-menu {
+    border: none;
+}
+
+.hamburg-menu:focus {
+    outline: 0;
+}
+
+.animated-hamburg {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+ }
+    
+.animated-hamburg span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+.animated-hamburg span {
+    background: #e65100;
+}
+
+.animated-hamburg span:nth-child(1) {
+    top: 0px;
+}
+
+.animated-hamburg span:nth-child(2) {
+    top: 10px;
+}
+
+.animated-hamburg span:nth-child(3) {
+    top: 20px;
+}
+
+.animated-hamburg.open span:nth-child(1) {
+    top: 11px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.animated-hamburg.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+}
+
+.animated-hamburg.open span:nth-child(3) {
+    top: 11px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
 header {
     width: 100%;
     background: rgba(244, 165, 96, 0);
@@ -129,31 +208,10 @@ header {
 
 /* -------------- */
 
-.logo-dessert {
-    width: auto;
-    display: flex;
-    margin: 0;
-}
-
 .logo-img {
-    width: 15%;
+    width: 30px;
 }
 
-.logo-icon {
-    width: 66px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo-icon {
-    padding: 16px 30px;
-}
-
-.logo-icon img {
-    width: 25px;
-    height: 25px;
-}
 #menu {
     position: fixed;
     right: 0;
@@ -229,8 +287,7 @@ header {
 }
 
 .step-div {
-    width: 1056px;
-    display: flex;
+    padding: 0;
     justify-content: space-between;
     margin-top: 50px;
 }
@@ -264,4 +321,22 @@ header {
     padding-bottom: 25px;
     margin-top: 35px;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 25%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 40px;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 20%;
+    }
 }
